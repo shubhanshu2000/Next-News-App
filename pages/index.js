@@ -27,7 +27,7 @@ export default function Home({ data }) {
               <div className=" w-[90%] sm:w-1/2 mx-auto mt-8 shadow-lg p-4 sm:p-10  rounded-xl shadow-blue-200 ">
                 <Link href={res.link}><a >
 
-                  <Image className='object-cover' key={res.id} src={image} alt={res.title} width={500} height={200} layout='responsive' />
+                  <Image className='object-cover' key={res.id} src={image} alt={res.title} width={500} height={400} layout='responsive' />
                   <h1 key={res.id} className='text-xl mt-2'>{res.title}</h1>
                 </a></Link>
               </div>
